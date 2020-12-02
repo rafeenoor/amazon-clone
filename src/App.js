@@ -3,7 +3,8 @@ import React from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Header from "./Header";
 import Home from "./Home";
-import BanerCarousel from "./BanerCarousel";
+
+
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
                  </Route>
                  <Route path="/">
                      <Header />
-                     {/*<Home />*/}
-                     <BanerCarousel/>
+                     <Home/>
+
                  </Route>
              </Switch>
           </div>
