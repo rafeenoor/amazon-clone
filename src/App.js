@@ -1,4 +1,3 @@
-import './App.css';
 import React from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Header from "./Header";
@@ -21,6 +20,8 @@ function App() {
                  <Route path="/">
                      <Header />
                      <Home/>
+                     
+                     
 
                  </Route>
              </Switch>

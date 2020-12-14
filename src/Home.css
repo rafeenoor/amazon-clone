@@ -1,9 +1,23 @@
 .home{
-    max-width: 1200px; /*Center the banner image*/
+    max-width: 1500px; /*Center the banner image*/
     margin-left: auto;/*Center the banner image*/
     margin-right: auto;/*Center the banner image*/
+    
+    
 }
 .home_image{
     width: 100%; /*fit banner image with navbar*/
     mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom: -150px;
+    
+
+}
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
